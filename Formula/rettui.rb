@@ -1,28 +1,28 @@
 class Rettui < Formula
   desc "Reticulum client for the terminal and the browser"
   homepage "https://github.com/zevaryx/rettui"
-  version "1.7.2"
+  version "1.8.0"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/zevaryx/rettui/releases/download/v1.7.2/rettui-v1.7.2-aarch64-apple-darwin.tar.gz"
-      sha256 "472036ccd2a3184f7f723ae64d33c0c9f5ab49e0d4d594dda7c5601db2c97a2f"
+      url "https://github.com/zevaryx/rettui/releases/download/v1.8.0/rettui-v1.8.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e52aa844c1b9f78c5da9922b932fa91d6f5430ff0054ecaa61fce59801a9d750"
     end
     on_intel do
-      url "https://github.com/zevaryx/rettui/releases/download/v1.7.2/rettui-v1.7.2-x86_64-apple-darwin.tar.gz"
-      sha256 "2a726ca077ef602684508b54c12c93635829453abe7438a7e4c42c3175419722"
+      url "https://github.com/zevaryx/rettui/releases/download/v1.8.0/rettui-v1.8.0-x86_64-apple-darwin.tar.gz"
+      sha256 "019f72d5eba0a324891e577415b20dae3005fe86225f2644c385972f2347aa9f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/zevaryx/rettui/releases/download/v1.7.2/rettui-v1.7.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0d2d026418a506e6332b4d5953a015469d8238bc02e7d3bb60163cc43cbf3350"
+      url "https://github.com/zevaryx/rettui/releases/download/v1.8.0/rettui-v1.8.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7c61b198b681f633b8a5f2f9888ac6a76eebc275df5224a98c3d44fe81446521"
     end
     on_intel do
-      url "https://github.com/zevaryx/rettui/releases/download/v1.7.2/rettui-v1.7.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c97a23b12b4023f45d3cf77c9844bb64b31d8389f2153a01259c2b7b398933e4"
+      url "https://github.com/zevaryx/rettui/releases/download/v1.8.0/rettui-v1.8.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e9f848913b7d46e1ec4dd684f54aa8d3865a6cf35f6883cca888efd2ade20430"
     end
   end
 
